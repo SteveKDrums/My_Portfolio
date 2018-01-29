@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width" name="viewport">
+  <title>Stephen Kohlmann - Web Developer</title>
+  <!-- Reset CSS Link -->
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <!--Link to Bootstrap CDN-->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <!-- Custom stylesheet -->
+  <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+  <header>
+    <!-- Navbar with dropdown menu -->
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>          <a class="navbar-brand" href="#portfolio">Steves Web Development</a>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">CV</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+      <!-- /.container-fluid -->
+    </nav>
+  </header>
+
+  <main>
+    <!-- Jumbotron -->
+    <section class="jumbotron">
+      <div class="fluid-container text-center">
+        <h1>Steve: Web Developer</h1>
+        <p>Web developer with a passion for creating beautiful, responsive websites.</p><br>
+        <p><a class="btn btn-primary btn-lg" href="#portfolio" role="button">Learn more</a></p>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class "fluid-container">
+        <h1 class="text-center sect-title">Technical Skills</h1>
+
+        <!--3 Bootstrap Grids for skills -->
+        <div class="row">
+          <!-- Frontend Column -->
+          <div class="col-sm-4 skill text-center">
+            <span aria-hidden="true" class="fa fa-photo fa-5x"></span>
+            <h3>Frontend</h3>
+            <p>Bootstrap</p>
+            <p>HTML5</p>
+            <p>CSS3</p>
+            <p>JavaScript</p>
+          </div>
+
+          <!-- Backend Column -->
+          <div class="col-sm-4 skill text-center">
+            <span aria-hidden="true" class="fa fa-cog fa-5x"></span>
+            <h3>Backend</h3>
+            <p>SQL</p>
+            <p>MongoDB</p>
+            <p>Express.js</p>
+          </div>
+
+          <!-- Design Column -->
+          <div class="col-sm-4 skill text-center">
+            <span aria-hidden="true" class="fa fa-pencil fa-5x"></span>
+            <h3>Design</h3>
+            <p>Photoshop</p>
+            <p>Illustrator</p>
+            <p>InDesign</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio 2X2 project Grid -->
+    <section id="portfolio">
+      <div class="fluid-container">
+        <h1 class="text-center sect-title">Portfolio</h1>
+        <!-- Row 1 -->
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">Dasmoto</a></h4>
+        </div>
+        <!-- Project 2 -->
+        <div class="col-sm-6">
+          <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+            <h4 class="text-center"><a href="#">My Times</a></h4>
+        </div>
+
+      </div>
+
+      <!-- Row 2 -->
+    <div class="row">
+      <!-- Project 3 -->
+      <div class="col-sm-6">
+        <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+          <h4 class="text-center"><a href="#">Dasmoto</a></h4>
+      </div>
+      <!-- Project 4 -->
+      <div class="col-sm-6">
+        <img class="img-responsive" src="resources/images/pexels-photo-326424.jpeg">
+          <h4 class="text-center"><a href="#">My Times</a></h4>
+      </div>
+
+    </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+    <!-- Contact section grid -->
+    <section>
+      <div class="row">
+
+        <!-- Git Column -->
+        <div class="col-sm-4 col-lg-4">
+          <div class="contact text-center">
+              <a href="https://github.com/SteveKDrums" >
+                <span aria-hidden="true" class="fa fa-github fa-5x text-center"></span>
+              </a>
+            </div>
+        </div>
+
+        <!-- Email Column -->
+        <div class="col-sm-4 col-lg-4">
+          <div class="contact text-center">
+              <a href="mailto:stephen.kohlmann@gmail.com" >
+                <span aria-hidden="true" class="fa fa-envelope fa-5x" ></span>
+              </a>
+            </div>
+        </div>
+
+        <!-- LinkedIn Column -->
+        <div class="col-sm-4 col-lg-4">
+          <div class="contact text-center">
+              <a href="https://www.linkedin.com/in/stephen-kohlmann-18699324/" >
+                <span aria-hidden="true" class="fa fa-linkedin fa-5x" ></span>
+              </a>
+            </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="text-right">Copyright &copy; 2018 Stephen Kohlmann. All rights reserved.</footer>
+  <!-- JQuery for JavaScript plugins -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <!-- JavaScript CDN Link -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
