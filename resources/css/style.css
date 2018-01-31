@@ -48,9 +48,11 @@ section {
 
 /* Portfolio Section */
 
-#portfolio {
+#portfolio, #cv {
   background-color: #eee;
 }
+
+
 
 .row img {
   margin: 20px 0;
